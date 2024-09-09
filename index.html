@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>LIVRARIA PARA NASCIDOS TROUXAS</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li>
+                <a class="linkzao" href="/index.html">Home</a>
+            </li>
+            <li>
+                <a class="linkzao" href="/casas.html">Hogwarts</a>
+            </li>
+        </ul>
+    </nav>
+    <header>
+        <h1>Livros Da Saga Harry Potter</h1>
+    </header>
+    <main>
+        <section>
+            <input type="text" placeholder="Digite o nome de um livro da saga" id="campo-pesquisa">
+            <button onclick="pesquisar()">Pesquisar</button>
+        </section>
+        <section class="resultados-pesquisa" id="resultados-pesquisa">
+        </section>
+    </main>
+    <footer>
+        <p>© 2024 - Livraria para nascidos trouxas</p>
+        <p>Desenvolvido por Hellmat Gabriel</p>
+        <a href="https://linktr.ee/hellmatgabriel" target="_blank">
+            <i class="fab fa-linktree"></i> LINKTREE
+        </a>    
+    </footer>
+    <script src="/dados.js"></script>
+    <script src="/app.js"></script>
+</body>
+</html>

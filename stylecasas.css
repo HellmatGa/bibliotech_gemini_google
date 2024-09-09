@@ -1,0 +1,118 @@
+/* Importa a fonte Chakra Petch do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+/* Estiliza o corpo da página */
+@keyframes estrelas {
+    0% { background-position: 0 0; }
+    100% { background-position: 100% 0; }
+}
+
+body {
+    font-family: "Chakra Petch", sans-serif; /* Define a fonte padrão */
+    background: linear-gradient(to bottom, #1a472a 20%, #0f1626 50%, silver);/* Cor de fundo da página */
+    display: flex; /* Usa Flexbox para layout */
+    flex-direction: column; /* Alinha os itens na vertical */
+    align-items: center; /* Centraliza os itens horizontalmente */
+    justify-content: center; /* Centraliza os itens verticalmente */
+    height: 100vh; /* Preenche a altura total da viewport */
+}
+
+/*botão da navbar*/
+.linkzao {
+    background: transparent;
+    color:#F5F7F8;
+    padding: 10px, 20px;
+    border-radius: 20px;;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: center;
+    padding: 5px;
+    background: transparent;
+    z-index: 1; /* Garante que a navbar fique acima de outros elementos */
+}
+
+header {
+    z-index: 1;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+}
+/* Estiliza os títulos h1 */
+h1 {
+    font-size: 40px; /* Tamanho da fonte */
+    color: #fcfafa; /* Cor do texto */
+    text-align: center; /* Alinha o texto ao centro */
+    letter-spacing: 0.4rem; /* Espaçamento entre letras */
+    margin-top: -2px;
+    margin-bottom: 40px;
+}
+
+section {
+    column-count: 2;
+    justify-content: space-evenly;
+    margin-bottom: 3rem; /* Espaçamento abaixo de cada seção */
+}
+
+.container {
+    width: 600px;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    margin-top: -10px;
+}
+
+img {
+    width: 400px;
+    height: 300px;
+    margin-bottom: 50px;
+    border-radius: 5px;
+}
+
+img {
+    filter: drop-shadow(#000000 1px 3px 1px)
+            drop-shadow(#000000 1px 3px 1px)
+            drop-shadow(#000000 1px 3px 1px)
+            drop-shadow(#000000 1px 3px 1px);
+}
+
+h2 {
+    display: table-cell;
+    float: left;
+    width: 300px;
+    margin-left: 20px;
+    margin-right: 30px;
+}
+
+footer {
+    background-color: #305e3f; /* Cor de fundo do rodapé */
+    color: #ffffff; /* Cor do texto */
+    text-align: center; /* Alinha o texto ao centro */
+    padding: 0; /* Espaçamento interno */
+    width: 100%; /* Largura total da página */
+    position: absolute; /* Posiciona o rodapé */
+    bottom: 0; /* Alinha ao fundo da página */
+    font-size: 22px; /* Tamanho da fonte */
+    position:fixed;
+}
+
+/*botão linktree*/
+a {
+    color: #000000;
+    background-color: #ffffff;
+    border: 2px solid #305e3f; /* Adiciona uma borda de 2px, sólida e branca */
+    padding: 10px 20px;
+    border-radius: 18px;
+    text-decoration: none;
+}
